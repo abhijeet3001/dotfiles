@@ -77,6 +77,7 @@ keys = [
     
     Key(["mod1"], "f", lazy.spawn('firefox')),
     Key(["mod1", "shift"], "f", lazy.spawn(' firefox -P sachin --new-instance &')),
+    Key(["mod1","control"], "f", lazy.spawn('firefox --private-window')),
     Key(["mod1"], "m", lazy.spawn('thunar')),
     
     # MULTIMEDIA KEYS
